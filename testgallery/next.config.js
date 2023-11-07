@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    experimental: {
+      serverComponentsExternalPackages: ["oracledb"]
+    },
+  };
+  
+  module.exports = nextConfig;
 
 module.exports = nextConfig
